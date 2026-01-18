@@ -1,0 +1,47 @@
+{
+  "name": "sim-ui",
+  "version": "1.0.0",
+  "description": "Sim UI - Vue3 组件库",
+  "type": "module",
+  "main": "./dist/sim-ui.umd.cjs",
+  "module": "./dist/sim-ui.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/sim-ui.js",
+      "require": "./dist/sim-ui.umd.cjs"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir dist",
+    "dev": "vite build --watch"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
+    "vue": "^3.4.27",
+    "vue-tsc": "^2.0.19"
+  },
+  "keywords": [
+    "vue3",
+    "ui",
+    "components"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+/* Sim UI 全局样式 */
+:root {
+  --sim-primary: #409eff;
+  --sim-primary-light: #66b1ff;
+  --sim-primary-dark: #3a8ee6;
+  --sim-success: #67c23a;
+  --sim-warning: #e6a23c;
+  --sim-danger: #f56c6c;
+  --sim-info: #909399;
+  --sim-text-primary: #303133;
+  --sim-text-regular: #606266;
+  --sim-text-secondary: #909399;
+  --sim-border-color: #dcdfe6;
+  --sim-border-radius: 4px;
+  --sim-transition: all 0.3s ease;
+}
+
+/* 重置样式 */
+.sim-button,
+.sim-input,
+.sim-card,
+.sim-alert,
+.sim-modal,
+.sim-tag {
+  box-sizing: border-box;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+}

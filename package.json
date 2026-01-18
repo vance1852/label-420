@@ -1,0 +1,25 @@
+{
+  "name": "sim-ui-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sim UI - Vue3 组件库",
+  "scripts": {
+    "dev": "pnpm -C frontend-user dev",
+    "build": "pnpm -C packages/sim-ui build && pnpm -C frontend-user build",
+    "build:lib": "pnpm -C packages/sim-ui build",
+    "build:docs": "pnpm -C frontend-user build",
+    "preview": "pnpm -C frontend-user preview"
+  },
+  "keywords": [
+    "vue3",
+    "ui",
+    "components",
+    "sim-ui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
