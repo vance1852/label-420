@@ -57,6 +57,36 @@
           </router-link>
         </div>
         <div class="nav-group">
+          <div class="nav-group-title">反馈组件</div>
+          <router-link
+            to="/modal"
+            class="nav-item"
+            @click="sidebarOpen = false"
+          >
+            <span class="nav-icon">💬</span>
+            Modal 模态框
+          </router-link>
+          <router-link
+            to="/tooltip"
+            class="nav-item"
+            @click="sidebarOpen = false"
+          >
+            <span class="nav-icon">💡</span>
+            Tooltip 文字提示
+          </router-link>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">表单组件</div>
+          <router-link
+            to="/switch"
+            class="nav-item"
+            @click="sidebarOpen = false"
+          >
+            <span class="nav-icon">🔀</span>
+            Switch 开关
+          </router-link>
+        </div>
+        <div class="nav-group">
           <div class="nav-group-title">数据展示</div>
           <router-link to="/card" class="nav-item" @click="sidebarOpen = false">
             <span class="nav-icon">🃏</span>
@@ -70,16 +100,13 @@
             <span class="nav-icon">⚠️</span>
             Alert 警告
           </router-link>
-        </div>
-        <div class="nav-group">
-          <div class="nav-group-title">反馈组件</div>
           <router-link
-            to="/modal"
+            to="/progress"
             class="nav-item"
             @click="sidebarOpen = false"
           >
-            <span class="nav-icon">💬</span>
-            Modal 模态框
+            <span class="nav-icon">📊</span>
+            Progress 进度条
           </router-link>
         </div>
       </nav>

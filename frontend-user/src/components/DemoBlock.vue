@@ -46,7 +46,6 @@ const toggleCode = () => {
   border: 1px solid #e4e7ed;
   border-radius: 8px;
   margin-bottom: 24px;
-  overflow: hidden;
   transition: all 0.3s;
 }
 
@@ -57,6 +56,7 @@ const toggleCode = () => {
 .demo-block__preview {
   padding: 24px;
   background: #fff;
+  overflow: visible;
 }
 
 .demo-block__footer {
@@ -103,6 +103,7 @@ const toggleCode = () => {
 
 .demo-block__code {
   border-top: 1px solid #e4e7ed;
+  overflow: hidden;
 }
 
 .slide-enter-active,
