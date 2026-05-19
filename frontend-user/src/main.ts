@@ -15,6 +15,9 @@ const router = createRouter({
     { path: "/alert", component: () => import("./views/AlertDemo.vue") },
     { path: "/modal", component: () => import("./views/ModalDemo.vue") },
     { path: "/tag", component: () => import("./views/TagDemo.vue") },
+    { path: "/tooltip", component: () => import("./views/TooltipDemo.vue") },
+    { path: "/switch", component: () => import("./views/SwitchDemo.vue") },
+    { path: "/progress", component: () => import("./views/ProgressDemo.vue") },
   ],
 });
 
