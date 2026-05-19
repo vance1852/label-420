@@ -55,6 +55,14 @@
             <span class="nav-icon">🏷️</span>
             Tag 标签
           </router-link>
+          <router-link to="/tooltip" class="nav-item" @click="sidebarOpen = false">
+            <span class="nav-icon">💡</span>
+            Tooltip 提示
+          </router-link>
+          <router-link to="/switch" class="nav-item" @click="sidebarOpen = false">
+            <span class="nav-icon">🔄</span>
+            Switch 开关
+          </router-link>
         </div>
         <div class="nav-group">
           <div class="nav-group-title">数据展示</div>
@@ -69,6 +77,14 @@
           >
             <span class="nav-icon">⚠️</span>
             Alert 警告
+          </router-link>
+          <router-link
+            to="/progress"
+            class="nav-item"
+            @click="sidebarOpen = false"
+          >
+            <span class="nav-icon">📊</span>
+            Progress 进度条
           </router-link>
         </div>
         <div class="nav-group">
