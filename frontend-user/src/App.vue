@@ -82,6 +82,33 @@
             Modal 模态框
           </router-link>
         </div>
+        <div class="nav-group">
+          <div class="nav-group-title">导航组件</div>
+          <router-link
+            to="/tooltip"
+            class="nav-item"
+            @click="sidebarOpen = false"
+          >
+            <span class="nav-icon">💡</span>
+            Tooltip 文字提示
+          </router-link>
+          <router-link
+            to="/switch"
+            class="nav-item"
+            @click="sidebarOpen = false"
+          >
+            <span class="nav-icon">🔛</span>
+            Switch 开关
+          </router-link>
+          <router-link
+            to="/progress"
+            class="nav-item"
+            @click="sidebarOpen = false"
+          >
+            <span class="nav-icon">📊</span>
+            Progress 进度条
+          </router-link>
+        </div>
       </nav>
       <div class="sidebar-footer">
         <span>v1.0.0</span>
