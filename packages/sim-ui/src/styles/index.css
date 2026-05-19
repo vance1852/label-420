@@ -21,7 +21,10 @@
 .sim-card,
 .sim-alert,
 .sim-modal,
-.sim-tag {
+.sim-tag,
+.sim-tooltip,
+.sim-switch,
+.sim-progress {
   box-sizing: border-box;
   font-family:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
